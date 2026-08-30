@@ -1,0 +1,27 @@
+# Build outputs
+build/
+cmake-build-*/
+
+# Generated / local output
+output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Personal GPS data (use local paths)
+assets/gpx/*.gpx
+
+# Large terrain assets
+assets/heightmaps/*.tif
+assets/heightmaps/*.tiff
+
+# Compiled objects
+*.o
+*.obj
+*.exe
+*.out
+ride_replay
