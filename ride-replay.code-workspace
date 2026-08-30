@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "ride-replay",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "build/**": true
+    }
+  }
+}
