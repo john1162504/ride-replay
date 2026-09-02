@@ -16,3 +16,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 enable_testing()
 add_subdirectory(tests)
+
+
+add_executable(ride_replay src/main.cpp)
