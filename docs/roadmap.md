@@ -81,9 +81,9 @@
 
 ### 0-04 · Code formatting `chore`
 
-- [ ] Add `.clang-format` (LLVM style, project-tuned)
-- [ ] Format all existing files
-- [ ] Document `clang-format` usage in README
+- [x] Add `.clang-format` (LLVM style, project-tuned)
+- [x] Format all existing files
+- [x] Document `clang-format` usage in README
 
 
 
