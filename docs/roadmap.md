@@ -89,10 +89,10 @@
 
 ### 0-05 · CI pipeline — build & test `chore`
 
-- [ ] Add `.github/workflows/ci.yml`
-- [ ] Job: CMake configure + build (Debug)
-- [ ] Job: `ctest --output-on-failure`
-- [ ] Enable branch protection on `main` requiring CI pass
+- [x] Add `.github/workflows/ci.yml`
+- [x] Job: CMake configure + build (Debug)
+- [x] Job: `ctest --output-on-failure`
+- [x] Enable branch protection on `main` requiring CI pass
 
 
 
