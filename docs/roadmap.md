@@ -98,16 +98,16 @@
 
 ### 0-06 · CI pipeline — format check `chore`
 
-- [ ] Add `format` job: `clang-format --dry-run -Werror`
-- [ ] Add to required status checks
+- [x] Add `format` job: `clang-format --dry-run -Werror`
+- [x] Add to required status checks
 
 
 
 ### 0-07 · CI pipeline — documentation check `chore`
 
-- [ ] Add `scripts/check-docs.sh` (public headers must have `@brief`)
-- [ ] Add `docs` job to CI workflow
-- [ ] Add to required status checks
+- [x] Add `scripts/check-docs.sh` (public headers must have `@brief`)
+- [x] Add `docs` job to CI workflow
+- [x] Add to required status checks
 
 
 

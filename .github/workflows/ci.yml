@@ -32,6 +32,14 @@ jobs:
       - name: Install clang-format
         run: sudo apt-get update && sudo apt-get install -y clang-format
 
-      - name: Check formatting 
-        run: find src tests -name '*.cpp' -print0 | xargs -0 clang-format --dry-run --Werror
-        
+      - name: Check formatting
+        run: find src tests -name '*.cpp' -print0 | xargs -0 clang-format --dry-run -Werror
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check public API docs
+        run: bash scripts/check-docs.sh
+
