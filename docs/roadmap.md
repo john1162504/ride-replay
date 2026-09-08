@@ -115,7 +115,7 @@
 
 - [x] Add `.github/pull_request_template.md` (self-review checklist)
 - [x] Create `docs/specs/`, `docs/journal/`
-- [ ] Write journal entry: `docs/journal/YYYY-MM-DD-0-08-project-kickoff.md`
+- [x] Write journal entry: `docs/journal/YYYY-MM-DD-0-08-project-kickoff.md`
 
 **Phase 0 exit:** CI green on `main`; smoke test passes; house rules in repo.
 
